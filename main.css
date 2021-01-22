@@ -1,0 +1,125 @@
+html {
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+    background-color: #808080;
+}
+
+:root{
+    font-size: 1.3em;
+    line-height: 1.4em;
+    margin: 0;
+    text-align: left;
+}
+
+body {
+    background: #fafafa;
+    max-width: 60vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.page-wrapper, #zen-summary{
+    border: none;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    line-height: 0.2em;
+    color: green;
+}
+
+header > * {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header > h2{
+    font-size: 0.8em;
+}
+
+h1{
+    font-size: 2.1em;
+    line-height: inherit;
+    font-family: 'Playfair Display', serif;
+    color: green;
+}
+
+h2{
+    font-size: 1.3em;
+    line-height: inherit;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+h3{
+    font-size: 1.3em;
+    line-height: inherit;
+    font-family: 'Red Hat Display', sans-serif;
+    color: green;
+    margin: 0;
+}
+
+div {
+    padding: 10px;
+    margin: 2px;
+    border: 2px #808080 solid;
+}
+
+p {
+    background-color: #FFCF79;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: inherit;
+}
+
+a:link {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #808080;
+    text-decoration: solid;
+}
+
+aside {
+    display: flex;
+    flex-wrap: wrap;
+}
+.wrapper{
+    display: block;
+    position: absolute;
+    top: 8em;
+    left: 1%;
+    max-width: 16.4vw;
+    font-size: 0.75em;
+    background: #fafafa;
+}
+footer{
+    padding: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer a{
+    background-color: #f0f0f0;
+    padding: 2px 4px 2px 4px;
+    border-top: 1px solid #ebebeb;
+    border-left: 1px solid #ebebeb;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+}
+
+footer a:hover{
+    background-color: #adadad;
+}
+
+ul{
+    padding-left: 20px;
+}
+
+[role="presentation"]{
+    display: none;
+}
